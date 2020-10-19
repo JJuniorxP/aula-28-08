@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap);
+
+body{
+    font-family: "Nunito", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+img.minha-foto{
+    position: fixed;
+    float: left;
+    top: 15px;
+    left: 20px;
+    border: 10px solid #7AA2DF;
+    box-sizing: border-box;
+}
+
+/* MENU PRINCIPAL */
+
+nav.menu-lateral{
+    border-right: 10px solid #7AA2DF;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+}
+
+
+ul.principal{
+    text-align: center;
+    margin-top: 315px;
+}
+
+ul.principal li{
+    text-decoration: none;
+}
+
+.ativo{
+    background-color:#7AA2DF;
+}
+
+ul.principal li:hover{
+    background-color:#7AA2DF;
+    color: #fff;
+}
+
+ul.principal a.nav-link{
+    padding: 10px 0px;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.principal a.nav-link:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* MENU REDES SOCIAIS */
+
+ul.sociais{
+    margin-top:150px;   
+}
+
+ul.sociais li a{
+    padding: 0px 10px;
+    color: #7AA2DF;
+    font-size: 25pt;
+}
+
+/* CORPO DA PÁGINA */
+
+main{
+
+    padding-left: 215px !important;
+}
+
+.conteudo{
+    padding-left: 100px !important;
+}
+
+.lead{
+    font-size: 13pt !important;
+}
+
+/* RODAPÉ DA PÁGINA */
+
+.rodape {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    left: 200px;
+    padding-left: 400px;
+    width: 100%;
+}
